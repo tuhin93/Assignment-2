@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared styles */
+
+
+
+/* nav related styles */
+.gradiant-bg {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.dark-bg{
+    background-color: black;
+}
+
+.nav-container {
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.nav-menu {
+    display: flex;
+}
+.brand-name{
+    color: #E6533C;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.nav-menu{
+    border-right: 20px;
+}
+.nav-menu li {
+    list-style-type: none;
+    margin-right: 20px;
+    border-radius: 18px;
+    padding: 16px 20px;
+}
+.nav-menu li:first-child{
+    background-color: #E6533C;
+    padding: 15px 20px;
+    
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    
+}
