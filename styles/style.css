@@ -10,15 +10,18 @@
 
 @import url('https://fonts.cdnfonts.com/css/miama');
 
-.miama-font {
+#miama-font {
     font-family: 'Miama', sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .shape {
-    font-size: 5rem;
+    font-size: 10rem;
 }
 
 /* shared styles */
@@ -39,7 +42,6 @@
     font-size: 1.1rem;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
-
 }
 
 .grey-text {
@@ -53,7 +55,7 @@
 
 /* nav related styles */
 .gradiant-bg {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 200%);
+    background: linear-gradient(180deg, rgb(17, 17, 17), rgba(57, 56, 56, 0.96) 200%);
 }
 
 .nav-container {
@@ -104,56 +106,90 @@
 /* banner section start */
 .banner {
     display: flex;
-    color: #FFFFFF;
     justify-content: space-between;
     align-items: center;
+    margin-left: 190px;
+    max-width: 1060px;
+    margin: 0 auto;
 }
 
 .banner-text {
-    width: 520px;
-    margin-left: 190px;
+    max-width: 520px;
+    max-height: 440px;
+}
+
+.banner-img img {
+    width: 100%;
+    margin-bottom: -4px;
 }
 
 .banner-heading {
-    font-size: 5rem;
+    color: #FFFFFF;
+    font-size: 4rem;
     line-height: 80px;
-
 }
 
-.banner-img {
-    margin-right: 210px;
+/* habit related styles */
+.habit{
+    max-width: 1044px;
+    margin: 0 auto;
 }
-
-/* .video {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(48, 48, 48, 0.54);
+.habit-card-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 100px;
-    margin-left: 650px;
-    margin-bottom: 200px;
+    margin-top: 60px;
 }
+.habit-content{
+    max-width: 660px;
+    margin: 0 auto;
+    text-align: center;
+}
+.habit-content h2{
+    color: #FFFFFF;
+    font-size: 3.2rem;
+    font-weight: 900;
+    padding-top: 20px;
+}
+.habit-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.habit-card img{
+    border-radius: 50%;
+}
+.habit-card{
 
-.video h3 {
+}
+.habit-card p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.habit-card h4{
     color: #FFFFFF;
     margin: 0;
 }
 
-.video p {
-    color: rgba(239, 237, 232, 0.65);
-    margin: 0;
-    padding-left: 10px;
-}
+/* Responsive related styles */
 
-.video-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: rgba(239, 237, 232, 0.65);
-}
+@media screen and (max-width: 576px) {
+    .banner {
+        flex-direction: column;
 
-.workout {} */
+    }
+
+    .banner-text {
+        margin-bottom: 120px;
+        padding: 10px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+}
