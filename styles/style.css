@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 .inter-font {
     font-family: "Inter", sans-serif;
@@ -7,17 +8,52 @@
     font-style: normal;
 }
 
-/* shared styles */
+@import url('https://fonts.cdnfonts.com/css/miama');
 
+.miama-font {
+    font-family: 'Miama', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.shape {
+    font-size: 5rem;
+}
+
+/* shared styles */
+.btn-primary {
+    background-color: #E6533C;
+    padding: 12px 20px;
+    border-radius: 42px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 42px;
+    border: none;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+
+}
+
+.grey-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dark-bg {
+    background-color: black;
+}
 
 
 /* nav related styles */
 .gradiant-bg {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-}
-
-.dark-bg{
-    background-color: black;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 200%);
 }
 
 .nav-container {
@@ -26,36 +62,98 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-
 }
 
 .nav-menu {
     display: flex;
 }
-.brand-name{
+
+.brand-name {
     color: #E6533C;
     font-style: italic;
     font-size: 2rem;
     font-weight: 800;
+    margin-top: 60px;
+    margin-left: 60px;
 }
-.nav-menu{
-    border-right: 20px;
+
+.nav-menu {
+    border-right: 190px;
+    margin-top: 55px;
 }
+
 .nav-menu li {
     list-style-type: none;
     margin-right: 20px;
     border-radius: 18px;
     padding: 16px 20px;
 }
-.nav-menu li:first-child{
+
+.nav-menu li:first-child {
     background-color: #E6533C;
-    padding: 15px 20px;
-    
+    padding: 12px 20px;
+    border-radius: 46px;
 }
 
 .nav-menu a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.1rem;
-    
 }
+
+/* banner section start */
+.banner {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text {
+    width: 520px;
+    margin-left: 190px;
+}
+
+.banner-heading {
+    font-size: 5rem;
+    line-height: 80px;
+
+}
+
+.banner-img {
+    margin-right: 210px;
+}
+
+/* .video {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin-left: 650px;
+    margin-bottom: 200px;
+}
+
+.video h3 {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.video p {
+    color: rgba(239, 237, 232, 0.65);
+    margin: 0;
+    padding-left: 10px;
+}
+
+.video-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(239, 237, 232, 0.65);
+}
+
+.workout {} */
