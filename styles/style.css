@@ -331,12 +331,13 @@
 .bmi-table tr, td, th{
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 5px;
+    color: rgba(255, 255, 255, 0.5)
+}
+.bmi-table th{
+    padding-left: 0;
 }
 .bmi-calculate{
     margin-top: 50px;
-}
-.bmi-calculate h1 {
-    color: #FFFFFF;
 }
 .bmi-calculate p {
     color: rgba(255, 255, 255, 0.5);
@@ -350,30 +351,33 @@
     margin-top: -10px;
 }
 .bmi-input [type="text"]{
-    width: 280px;
+    width: 98%%;
     height: 50px;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
     margin-bottom: 10px;
+    padding: 0px 5px;
 }
-.bmi-input #select, #sex{
-    width: 280px;
+.bmi-input #select, #sex {
+    width: 100%;
     height: 50px;
+    padding: 0px 5px;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.5);
     margin-bottom: 10px;
 }
-.bmi-input #factor{
-    width: 565px;
+.bmi-input #factor {
+    width: 100%;
     height: 50px;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
 }
-#calculate-btn{
+
+#calculate-btn {
     width: 220px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* Team related styles */
@@ -406,10 +410,12 @@
         margin-bottom: 120px;
         padding: 10px;
     }
+    .banner-img{
+        position: relative;
+    }
 
     .banner-img img {
         width: 100%;
-
     }
 
     .nav-menu {
@@ -417,17 +423,23 @@
     }
 
     .btn-video {
+        top: 45%;
+        right: 50%;
+    }
+    .btn-free {
         top: 10%;
-        right: 30%;
+        right: -5%;
     }
 
     .run {
         flex-direction: column;
     }
+    .run-img img{
+        width: 100%;
+    }
 
     #run-btn {
-        margin-left: 25px;
-        width: 290px;
+        width: 320px;
         height: 60px;
         margin-bottom: 10px;
     }
@@ -435,8 +447,35 @@
     .bmi {
         padding: 20px;
     }
-
+    .bmi-calculate-chart{
+        flex-direction: column;
+    }
+    .bmi-calculate h1 {
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding-bottom: 40px;
+    margin-top: -10px;
+}
+    .bmi-table h3{
+        text-align: center;
+        font-size: 1rem;
+        margin: 0;
+    }
     .bmi-container {
+        flex-direction: column;
         padding: 0;
+    }
+    .bmi-input{
+        width: 100%;
+    }
+    .run-img img {
+        width: 320px;
+        height: 300px;
+    }
+    .bmi h1{
+        font-size: 1rem;
+    }
+    .bmi-input [type="text"] {
+        width: 100%;
     }
 }
