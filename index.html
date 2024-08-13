@@ -19,10 +19,12 @@
                 <li><a href="">Contact</a></li>
                 <li><a href="">About</a></li>
             </ul>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-              </svg>
-              
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            </svg>
+
             <!-- <div id="hamburger-menu">
                 <button class="hamburger-button"> ☰ </button>
              </div> -->
@@ -87,12 +89,91 @@
         <section class="run">
             <div class="run-content">
                 <h1>Run an Extra Mile Easily</h1>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                    gym. With hundreds of professional workouts.</p>
                 <button class="btn-primary" id="run-btn">Join now</button>
             </div>
             <div class="run-img">
                 <img src="images/run.jpg" alt="">
             </div>
+        </section>
+        <section class="bmi">
+            <h1>BMI Calculator</h1>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+            </p>
+        </section>
+        <section class="bmi-container">
+            <div class="bmi-calculate-chart">
+                <div class="bmi-table">
+                    <h3>BMI Calculator Chart</h3>
+                    <table cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5- 24.9</td>
+                                <td> Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9 </td>
+                                <td> Overweight </td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="bmi-calculate">
+                <h1>Calculate your BMI</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <div class="bmi-input">
+                    <input type="text" placeholder="Height/cm">
+                    <input type="text" placeholder="Weight/kg"><br>
+                    <select name="" id="select">
+                        <option value="">Age</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+                    <select name="" id="sex">
+                        <option value="">Sex</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Rather not to say</option>
+                    </select>
+                    <br>
+                    <select name="" id="factor">
+                        <option value="">Find any activity factor</option>
+                    </select>
+                    <button class="btn-primary" id="calculate-btn"">Calculate</button>
+                </div>
+            </div>
+
         </section>
     </main>
     <footer></footer>
