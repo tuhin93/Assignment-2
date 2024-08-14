@@ -327,17 +327,22 @@
     padding-top: 50px;
 }
 
-.bmi-table tr, td, th{
+.bmi-table tr,
+td,
+th {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 5px;
     color: rgba(255, 255, 255, 0.5)
 }
-.bmi-table th{
+
+.bmi-table th {
     padding-left: 0;
 }
-.bmi-calculate{
+
+.bmi-calculate {
     margin-top: 50px;
 }
+
 .bmi-calculate p {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 15px;
@@ -349,7 +354,8 @@
     padding-bottom: 40px;
     margin-top: -10px;
 }
-.bmi-input [type="text"]{
+
+.bmi-input [type="text"] {
     width: 98%;
     height: 50px;
     border: none;
@@ -357,7 +363,9 @@
     margin-bottom: 10px;
     padding: 0px 5px;
 }
-.bmi-input #select, #sex {
+
+.bmi-input #select,
+#sex {
     width: 100%;
     height: 50px;
     padding: 0px 5px;
@@ -366,6 +374,7 @@
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 10px;
 }
+
 .bmi-input #factor {
     width: 100%;
     height: 50px;
@@ -380,24 +389,27 @@
 }
 
 /* Team related styles */
-.team h1{
+.team h1 {
     color: #FFFFFF;
     text-align: center;
     font-size: 3rem;
     font-weight: 900;
     margin-top: 80px;
 }
-.team p{
+
+.team p {
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     padding-bottom: 10px;
 }
-.team{
+
+.team {
     max-width: 1440px;
     margin: 0 auto;
-    
+
 }
-.team-img-container{
+
+.team-img-container {
     max-width: 1060px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.1);
@@ -409,66 +421,88 @@
     padding-top: 10px;
     gap: 10px;
 }
+
 .team-img-container img {
     width: 340px;
     height: 270px;
     border-radius: 15px;
 }
+
 /* Footer related styles */
-footer{
+footer {
     max-width: 1440px;
     margin: 0 auto;
     background: rgb(34, 34, 34);
 }
 
-.footer-container{
+.footer-container {
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    
+
 }
+
 .footer-left {
     width: 440px;
     margin-right: 100px;
 }
-.footer-left p{
+
+.footer-left p {
     padding-bottom: 10px;
     color: rgba(255, 255, 255, 0.5);
 }
-.footer-center{
-width: 300px;
-margin-top: 60px;
-}
-.footer-center h1{
-    color: #FFFFFF;
-    margin-bottom: 10px;
-}
-.footer-center li{
-    color: rgba(255, 255, 255, 0.5);
-    list-style-type: none;
-    margin-bottom: 10px;
-    font-size: 1.3rem;
-}
-.footer-right{
+
+.footer-center {
     width: 300px;
     margin-top: 60px;
 }
-.footer-right h1{
+
+.footer-center h1 {
     color: #FFFFFF;
     margin-bottom: 10px;
 }
-.footer-right li{
+
+.footer-center li {
     color: rgba(255, 255, 255, 0.5);
     list-style-type: none;
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
-.horizontal-line{
-    width: 1000px;
+
+.footer-right {
+    width: 300px;
+    margin-top: 60px;
+}
+
+.footer-right h1 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-right li {
+    color: rgba(255, 255, 255, 0.5);
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.horizontal-line {
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 20px;
 }
+
+.footer-copy {
+    width: 1040px;
+}
+
+.footer-copy p {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
 /* Responsive related styles */
 
 @media screen and (max-width: 576px) {
@@ -498,7 +532,8 @@ margin-top: 60px;
         margin-bottom: 120px;
         padding: 10px;
     }
-    .banner-img{
+
+    .banner-img {
         position: relative;
     }
 
@@ -514,6 +549,7 @@ margin-top: 60px;
         top: 45%;
         right: 50%;
     }
+
     .btn-free {
         top: 10%;
         right: -5%;
@@ -522,7 +558,8 @@ margin-top: 60px;
     .run {
         flex-direction: column;
     }
-    .run-img img{
+
+    .run-img img {
         width: 100%;
     }
 
@@ -535,56 +572,73 @@ margin-top: 60px;
     .bmi {
         padding: 20px;
     }
-    .bmi-calculate-chart{
+
+    .bmi-calculate-chart {
         flex-direction: column;
     }
+
     .bmi-calculate h1 {
-    color: #FFFFFF;
-    font-size: 1rem;
-    padding-bottom: 40px;
-    margin-top: -10px;
-}
-    .bmi-table h3{
+        color: #FFFFFF;
+        font-size: 1rem;
+        padding-bottom: 40px;
+        margin-top: -10px;
+    }
+
+    .bmi-table h3 {
         text-align: center;
         font-size: 1rem;
         margin: 0;
     }
+
     .bmi-container {
         flex-direction: column;
         padding: 0;
     }
-    .bmi-input{
+
+    .bmi-input {
         width: 100%;
     }
+
     .run-img img {
         width: 320px;
         height: 300px;
     }
-    .bmi h1{
+
+    .bmi h1 {
         font-size: 1rem;
     }
+
     .bmi-input [type="text"] {
         width: 100%;
     }
-    .team-img-container{
+
+    .team-img-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    .team-img-container img{
+
+    .team-img-container img {
         width: 100%;
         height: 100%;
     }
+
     .footer-container {
         display: flex;
         flex-direction: column;
         padding-left: 20px;
     }
-    .footer-center{
+
+    .footer-center {
         width: 100%;
     }
+
     .footer-left {
         width: 100%;
     }
-    .footer-right{
+
+    .footer-right {
         width: 100%;
+    }
+    .footer-copy{
+        width: 90%;
     }
 }
