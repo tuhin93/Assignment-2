@@ -757,8 +757,9 @@ footer {
         flex-direction: column;
         width: 100%;
     }
-    #calculate-btn{
-        width: 100%;
+    #calculate-btn {
+        width: 98%;
+        margin: 0 auto;
     }
     .discount {
         width: 100%;
