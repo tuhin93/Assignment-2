@@ -53,7 +53,6 @@
     background-color: black;
 }
 
-
 /* nav related styles */
 .gradiant-bg {
     background: linear-gradient(#3d3d3c, #000000);
@@ -351,7 +350,7 @@
     margin-top: -10px;
 }
 .bmi-input [type="text"]{
-    width: 98%%;
+    width: 98%;
     height: 50px;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
@@ -381,7 +380,90 @@
 }
 
 /* Team related styles */
+.team h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 80px;
+}
+.team p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.team{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.team-img-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    gap: 10px;
+}
+.team-img-container img {
+    width: 340px;
+    height: 270px;
+    border-radius: 15px;
+}
+/* Footer related styles */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+}
 
+.footer-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-left {
+    width: 440px;
+    margin-right: 100px;
+}
+.footer-left p{
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-center{
+width: 300px;
+margin-top: 60px;
+}
+.footer-center h1{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.footer-center li{
+    color: rgba(255, 255, 255, 0.5);
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+.footer-right{
+    width: 300px;
+    margin-top: 60px;
+}
+.footer-right h1{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.footer-right li{
+    color: rgba(255, 255, 255, 0.5);
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
 /* Responsive related styles */
 
 @media screen and (max-width: 576px) {
@@ -477,5 +559,17 @@
     }
     .bmi-input [type="text"] {
         width: 100%;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-img-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
     }
 }
