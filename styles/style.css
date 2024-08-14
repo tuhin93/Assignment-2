@@ -464,6 +464,11 @@ margin-top: 60px;
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
+.horizontal-line{
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
 /* Responsive related styles */
 
 @media screen and (max-width: 576px) {
@@ -473,6 +478,7 @@ margin-top: 60px;
 
     .brand-name {
         margin-left: 10px;
+        font-size: 2rem;
     }
 
     .habit-card-container {
@@ -571,5 +577,14 @@ margin-top: 60px;
         display: flex;
         flex-direction: column;
         padding-left: 20px;
+    }
+    .footer-center{
+        width: 100%;
+    }
+    .footer-left {
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
     }
 }
