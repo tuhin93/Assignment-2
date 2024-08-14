@@ -6,6 +6,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: #000;
 }
 
 @import url('https://fonts.cdnfonts.com/css/miama');
@@ -588,6 +589,10 @@ footer {
     text-align: center;
     padding-bottom: 15px;
 }
+.offer-message p {
+    font-weight: 600;
+    letter-spacing: initial;
+}
 
 /* Responsive related styles */
 
@@ -741,7 +746,7 @@ footer {
         flex-direction: column;
     }
     .offer-message img {
-        width: 300px;
+        width: 350px;
         height: auto;
         position: relative;
         right: 70px;
