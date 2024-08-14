@@ -365,7 +365,7 @@ th {
 }
 option{
     background-color: rgba(48, 48, 48, 0.54);
-    color:aqua;
+    color:#FFFFFF;
 }
 .bmi-input #select,
 #sex {
@@ -461,7 +461,7 @@ option{
 
 .coupon-sticker {
     background-color: #E6533C;
-    color: #333;
+    color: #FFFFFF;
     font-size: 3rem;
     font-weight: bold;
     padding: 10px;
