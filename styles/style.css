@@ -782,4 +782,7 @@ footer {
     .bmi-input #select, #sex{
         width: 98%;
     }
+    .habit-content h2{
+        font-size: 1.2rem;
+    }
 }
