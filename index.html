@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/df55f2c988.js" crossorigin="anonymous"></script>
 </head>
+
 <body class="inter-font">
     <header class="gradiant-bg">
         <div class="nav-container">
@@ -135,8 +136,9 @@
             </div>
             <div class="bmi-calculate">
                 <h1>Calculate your BMI</h1>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-                <div class="bmi-input">
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                    gym.</p>
+                <div class="bmi-input" id="input-bg">
                     <input type="text" placeholder="Height/cm">
                     <input type="text" placeholder="Weight/kg"><br>
                     <select name="" id="select">
@@ -173,24 +175,59 @@
                 </div>
             </div>
         </section>
-        <Section class="team">
-            <h1>Meet Our Team</h1>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
-            <div class="team-img-container">
-                <img src="images/trainer1.png" alt="">
-                <img src="images/trainer2.png" alt="">
-                <img src="images/trainer3.png" alt="">
-                <img src="images/trainer4.png" alt="">
-                <img src="images/trainer5.png" alt="">
-                <img src="images/trainer6.png" alt="">
-            </div>
+        <Section class=" team">
+                        <h1>Meet Our Team</h1>
+                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br>
+                            access to a gym.</p>
+                        <div class="team-img-container">
+                            <img src="images/trainer1.png" alt="">
+                            <img src="images/trainer2.png" alt="">
+                            <img src="images/trainer3.png" alt="">
+                            <img src="images/trainer4.png" alt="">
+                            <img src="images/trainer5.png" alt="">
+                            <img src="images/trainer6.png" alt="">
+                        </div>
         </Section>
+        <section class="offer-container">
+            <div class="offer-message">
+                <p> Oh, you are not registered yet. Hurry up! We have a <span class="discount">15% discount</span> offer for this month.</p>
+                <img src="images/offer.png" alt="">
+            </div>
+            <div class="coupon-sticker">
+                <p>15% OFF</p>
+            </div>
+            <div class="forms">
+                <div class="sign-in">
+                    <h2>Sign In</h2>
+                    <form>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" required>
+
+                        <button type="submit">Sign In</button>
+                    </form>
+                </div>
+                <div class="sign-up">
+                    <h2>Sign Up</h2>
+                    <form>
+                        <label for="new-email">Email:</label>
+                        <input type="email" id="new-email" required>
+                        <label for="new-password">Password:</label>
+                        <input type="password" id="new-password" required>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="dark-bg">
         <section class="footer-container">
             <div class="footer-left">
                 <h1 class="brand-name">Fitness</h1>
-                <p class="grey-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="grey-text">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym. With hundreds of professional workouts.</p>
             </div>
             <div class="footer-center">
                 <h1>Get Started</h1>

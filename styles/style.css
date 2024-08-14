@@ -359,11 +359,14 @@ th {
     width: 98%;
     height: 50px;
     border: none;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(48, 48, 48, 0.54);
     margin-bottom: 10px;
     padding: 0px 5px;
 }
-
+option{
+    background-color: rgba(48, 48, 48, 0.54);
+    color:aqua;
+}
 .bmi-input #select,
 #sex {
     width: 100%;
@@ -406,7 +409,6 @@ th {
 .team {
     max-width: 1440px;
     margin: 0 auto;
-
 }
 
 .team-img-container {
@@ -421,12 +423,96 @@ th {
     padding-top: 10px;
     gap: 10px;
 }
-
 .team-img-container img {
     width: 340px;
     height: 270px;
     border-radius: 15px;
 }
+/* Offer discount related styels */
+.offer-container{
+    max-width: 1044px;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+.offer-message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.offer-message img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 35px;
+}
+
+.discount {
+    font-weight: 900;
+    color: #E6533C;
+    font-size: 4rem;
+}
+
+.coupon-sticker {
+    background-color: #E6533C;
+    color: #333;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+    left: -108px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.forms h2 {
+    margin-bottom: 15px;
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms label {
+    margin: 10px 0 5px;
+}
+
+.forms input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+.forms button {
+    padding: 10px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.forms button:hover {
+    background-color: #E6533C;
+}
+
 
 /* Footer related styles */
 footer {
@@ -564,8 +650,8 @@ footer {
     }
 
     #run-btn {
-        width: 320px;
-        height: 60px;
+        width: 90%;
+        height: auto;
         margin-bottom: 10px;
     }
 
@@ -582,12 +668,16 @@ footer {
         font-size: 1rem;
         padding-bottom: 40px;
         margin-top: -10px;
+        padding-left: 5px;
     }
 
     .bmi-table h3 {
         text-align: center;
         font-size: 1rem;
         margin: 0;
+    }
+    .bmi-calculate p{
+        padding-left: 5px;
     }
 
     .bmi-container {
@@ -597,11 +687,12 @@ footer {
 
     .bmi-input {
         width: 100%;
+        padding-left: 5px;
     }
 
     .run-img img {
-        width: 320px;
-        height: 300px;
+        width: 100%;
+        /* height: 100%; */
     }
 
     .bmi h1 {
@@ -609,7 +700,7 @@ footer {
     }
 
     .bmi-input [type="text"] {
-        width: 100%;
+        width: 96%;
     }
 
     .team-img-container {
@@ -617,8 +708,9 @@ footer {
     }
 
     .team-img-container img {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
     }
 
     .footer-container {
@@ -638,7 +730,38 @@ footer {
     .footer-right {
         width: 100%;
     }
+    .horizontal-line{
+        width: 95%;
+    }
     .footer-copy{
         width: 90%;
+        margin: 0 auto;
+    }
+    .offer-container{
+        flex-direction: column;
+    }
+    .offer-message img {
+        width: 300px;
+        height: auto;
+        position: relative;
+        right: 70px;
+        top: 90px;
+    }
+    .forms {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #calculate-btn{
+        width: 100%;
+    }
+    .discount {
+        width: 100%;
+    }
+    .offer-message{
+        width: 100%;
+    }
+    .bmi-input #select, #sex{
+        width: 98%;
     }
 }
